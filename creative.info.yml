@@ -1,0 +1,27 @@
+name: creative
+description: Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses. The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Bootstrap based project!
+type: theme
+core: 8.x
+base theme: false
+libraries:
+  - creative/global-css
+  - creative/global-js
+  - creative/font
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  button_1: 'Button (1)'
+  section_middle_heading: 'Section (Middle Heading)'
+  section_middle_des: 'Section (Middle Description)'
+  button_2: 'Button (2)'
+  service_title: 'Service Title'
+  services: 'Services'
+  section_2: 'Section 2 (title)'
+  button_3: 'Button (3)'
+  footer: 'Footer'
+  footer_content: 'Footer Content'
+  footer_contact: 'Contact'
+  footer_email: 'Email'
