@@ -12,13 +12,12 @@
 
     $(".services").ready(function () {
         $(".services").each(function (i, obj) {
-            console.log(this)
             $(this).html('<div class="service-box mt-5 mx-auto services-custom">' + $(this).html() + '</div>');
         });
     });
     $(".services-custom").ready(function() {
         $('.services-custom > div:first-child').each(function(i, obj) {
-            $(this).html('<i class="fa fa-4x'+ $(this).text()  +' text-primary mb-3 sr-icons"></i>');
+            $(this).html('<i class="fa fa-4x '+ $(this).text()  +' text-primary mb-3 sr-icons"></i>');
         });
     })
 })(jQuery);
