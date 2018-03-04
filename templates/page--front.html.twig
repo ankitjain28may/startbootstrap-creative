@@ -93,7 +93,7 @@
       </div>
     </header>
 
-    {% if page.section_middle_heading or page.section_middle_des %}
+    {% if page.section_middle_heading or page.content %}
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
@@ -102,8 +102,8 @@
               <h2 class="section-heading text-white">{{ page.section_middle_heading }}</h2>
             {% endif %}
             <hr class="light my-4">
-            {% if page.section_middle_des %}
-              <div class="text-faded mb-4">{{ page.section_middle_des }}</p>
+            {% if page.content %}
+              <div class="text-faded mb-4">{{ page.content }}</p>
             {% endif %}
 
             {% if page.button_2 %}

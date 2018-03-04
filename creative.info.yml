@@ -15,7 +15,7 @@ regions:
   highlighted: 'Highlighted'
   button_1: 'Button (1)'
   section_middle_heading: 'Section (Middle Heading)'
-  section_middle_des: 'Section (Middle Description)'
+  content: 'Content'
   button_2: 'Button (2)'
   service_title: 'Service Title'
   services: 'Services'
